@@ -8,23 +8,25 @@
     font-family: 'Lato', sans-serif;
 
 }
-img, ul, li{
-    display: block;
-}
 
 
 /* ----Header----*/
 
-img.header__img{
-    position: relative;
-    width:100vw;
-
-
+.header__img img{
+   width:100vw;
+    display: block;
 }
-.header-list{
+.header__nav{
+   position: absolute;
+    top: 0;
+    left:17%;
+}
+
+ul.header-list{
     list-style-type: none;
     padding-top: 2rem;
-
+    position: absolute;
+    width: 100%;
 }
 
 .header__menu a{
@@ -33,20 +35,92 @@ img.header__img{
     color: #797782;
     font-weight: bold;
     letter-spacing: 0.09rem;
-
 }
 
+/* ----new-generation----*/
+.new-generation{
+    background: #f7f7f7;
+}
+.new-generation p{
+    text-align: center;
+}
+p.new-generation__icon{
+    padding-top: 6.875rem;
+    margin-bottom: 2rem;
+}
+p.new-generation__text{
+    width: 70%;
+    margin: 0 auto;
+    color: #afb1b2;
+    padding-bottom: 9rem;
+    font-size: 1.1rem;
+}
+p.new-generation__title{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #353738;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+ /*----Oliva----*/
 
+.oliva{
+    max-height: 500px;
+}
+.oliva__photo{
+    flex: 0 0 60%;
+    position: relative;
+}
+.oliva-wrapper{
+    width: 100%;
+}
+.oliva__photo img.big{
+   width: 100%;
+    height: 100%;
 
+}
+.oliva__photo img.small{
+    position: absolute;
+    top:47%;
+    left: 43%;
+}
+.oliva__discr{
+    text-align: center;
+    margin: 0;
+}
+.oliva__seat img {
+    width: 100%;
+}
+.oliva__icon{
 
-
-
-
-
-
-
-
-
+}
+.oliva__title{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #353738;
+    font-weight: bold;
+    padding-bottom: 1.55rem;
+    margin-bottom: 0;
+}
+.oliva__text{
+    font-size: 0.8rem;
+    padding-bottom: 4rem;
+    width: 70%;
+    text-align: justify;
+    margin: 0 auto;
+    position: relative;
+    color: #afb1b2;
+}
+.oliva__text::after{
+    content: "";
+    width: 2.875rem;
+    height: 1px;
+    display: block;
+    background-color:#afb1b2;
+    position: absolute;
+    bottom: 2rem;
+    right: 45%;
+}
 
 
 
