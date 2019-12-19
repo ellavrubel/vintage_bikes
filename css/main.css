@@ -1,0 +1,68 @@
+
+/*----Спецификация----*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.html, .body{
+    font-family: 'Lato', sans-serif;
+
+}
+img, ul, li{
+    display: block;
+}
+
+
+/* ----Header----*/
+
+img.header__img{
+    position: relative;
+    width:100vw;
+
+
+}
+.header-list{
+    list-style-type: none;
+    padding-top: 2rem;
+
+}
+
+.header__menu a{
+    text-decoration: none;
+    font-size: .875rem;
+    color: #797782;
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
