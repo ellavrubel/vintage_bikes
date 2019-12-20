@@ -64,9 +64,7 @@ p.new-generation__title{
 }
  /*----Oliva----*/
 
-.oliva{
-    max-height: 500px;
-}
+
 .oliva__photo{
     flex: 0 0 60%;
     position: relative;
@@ -86,6 +84,7 @@ p.new-generation__title{
 .oliva__discr{
     text-align: center;
     margin: 0;
+    flex: 0 0 40%;
 }
 .oliva__seat img {
     width: 100%;
@@ -119,16 +118,11 @@ p.new-generation__title{
 }
 
 /*----Boriosa----*/
-.boriosa{
-    max-height: 500px;
-}
+
+
 .boriosa__photo{
     flex: 0 0 60%;
     position: relative;
-}
-
-.boriosa-wrapper{
-    width: 100%;
 }
 .boriosa__photo img.big{
     width: 100%;
@@ -142,6 +136,7 @@ p.new-generation__title{
 .boriosa__discr{
     text-align: center;
     margin: 0;
+    flex: 0 0 40%;
 }
 .boriosa__seat img {
     width: 100%;
@@ -176,31 +171,61 @@ p.new-generation__title{
 
 /*----Retro----*/
 
-.retro{
-   max-height: 500px;
-}
-.retro-wrapper{
-    width: 100%
-}
+
 .retro__first img{
     width: 100%;
     height: 100%;
 }
 .retro__first, .retro__second{
     flex: 0 0 33.33333%;
+    height: auto;
 }
 .retro__discr{
-    padding-bottom: 2rem;
+    text-align: center;
+    margin: 0;
 }
 
+/*----Twitter-slide----*/
+
+.twitter-slide{
+    background: #f7f7f7;
+    /*max-height: 30rem;*/
+
+}
+.first__twit{
+    text-align: center;
+}
+/*.first__twit-picture img{
+
+    padding-top: 7.6rem;
+    padding-bottom: 1rem;
 
 
+}*/
+.first__twit-title{
+    font-size: .81rem;
+    font-weight: bold;
+    letter-spacing: .08rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+span.minutes{
+    color: #babbbc;
+}
+.first__twit-text{
+    font-style: italic;
+    font-size: 1.125rem;
+    color: #848789;
+    width: 70%;
+    margin: 0 auto;
+}
+.owl-carousel .item{
+   height: 30rem;
+}
+.fa-twitter{
+    color:#005cbf;
 
-
-
-
-
-
+}
 
 
 
