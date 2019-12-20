@@ -297,10 +297,55 @@ span.minutes{
     text-decoration: none;
 }
 
+/*----Email----*/
 
+.email{
+    height: 30rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.email__title{
+    margin-top: 2.2rem;
+    color: #8c8f91;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.email__input{
+    width: 25rem;
+    height: 3.5rem;
+}
+.email__go{
+    width: 7.6rem;
+    height: 3.5rem;
+    border-radius: 0;
+    background: #64c29e;
+    color: #fff;
+    font-size: 1.5rem;
+}
+input[type="email"]::-webkit-input-placeholder {
+    font-style: italic;
+    color: #c8c8c8;
+    font-size: 1.3rem;
+}
 
+input[type="email"]:-ms-input-placeholder {
+    font-style: italic;
+    color: #c8c8c8;
+    font-size: 1.3rem;
+}
 
+input[type="email"]::-ms-input-placeholder {
+    font-style: italic;
+    color: #c8c8c8;
+    font-size: 1.3rem;
+}
 
+input[type="email"]::placeholder {
+    font-style: italic;
+    color: #c8c8c8;
+    font-size: 1.3rem;
+}
 
 
 
