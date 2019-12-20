@@ -6,7 +6,9 @@
 }
 .html, .body{
     font-family: 'Lato', sans-serif;
-
+}
+.container-fluid{
+    padding: 0;
 }
 
 
@@ -99,7 +101,7 @@ p.new-generation__title{
 }
 .oliva__text{
     font-size: 0.8rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     width: 70%;
     text-align: justify;
     margin: 0 auto;
@@ -113,7 +115,7 @@ p.new-generation__title{
     display: block;
     background-color:#afb1b2;
     position: absolute;
-    bottom: 2rem;
+    bottom: 4rem;
     right: 45%;
 }
 
@@ -151,7 +153,7 @@ p.new-generation__title{
 }
 .boriosa__text{
     font-size: 0.8rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     width: 70%;
     text-align: justify;
     margin: 0 auto;
@@ -165,7 +167,7 @@ p.new-generation__title{
     display: block;
     background-color:#afb1b2;
     position: absolute;
-    bottom: 2rem;
+    bottom: 3.5rem;
     right: 45%;
 }
 
@@ -184,24 +186,23 @@ p.new-generation__title{
     text-align: center;
     margin: 0;
 }
+.retro__text{
+    padding-bottom: 8rem;
 
+}
 /*----Twitter-slide----*/
 
 .twitter-slide{
     background: #f7f7f7;
-    /*max-height: 30rem;*/
-
 }
 .first__twit{
     text-align: center;
 }
-/*.first__twit-picture img{
+.first__twit-picture {
 
     padding-top: 7.6rem;
     padding-bottom: 1rem;
-
-
-}*/
+}
 .first__twit-title{
     font-size: .81rem;
     font-weight: bold;
@@ -220,12 +221,110 @@ span.minutes{
     margin: 0 auto;
 }
 .owl-carousel .item{
-   height: 30rem;
+   height: 20rem;
 }
 .fa-twitter{
-    color:#005cbf;
-
+    color:#56c7ee;
+    font-size: 2rem;
 }
+.owl-theme .owl-nav.disabled + .owl-dots{
+    padding-bottom: 5rem;
+}
+
+/*----Shop----*/
+
+.shop1, .shop2, .shop3{
+    flex: 0 0 33.333333%;
+    height: auto;
+}
+.shop1__first, .shop1__second{
+    flex: 0 0 50%;
+    height: auto;
+}
+.shop1__third{
+    flex: 0 0 100%;
+    height: auto;
+}
+.shop1__first img, .shop1__second img, .shop1__third img{
+    width: 100%;
+    height: 100%;
+}
+.shop2__first, .shop2__second{
+    flex: 0 0 50%;
+    height: auto;
+}
+.shop2__first img, .shop2__second img{
+    width: 100%;
+    height: 100%;
+}
+.shop3__first{
+    flex: 0 0 100%;
+    height: auto;
+}
+.shop3__second, .shop3__third{
+    flex: 0 0 50%;
+    height: auto;
+}
+.shop3__first img, .shop3__second img, .shop3__third img{
+    width: 100%;
+    height: 100%;
+}
+
+/*----BlackButton----*/
+
+.blackButton{
+    height: 12.5rem;
+    background: #282f35;
+}
+.discoverShop {
+    display: block;
+    width: 18.75rem;
+    height: 3.125rem;
+    border-radius: 0;
+    border: 1px solid #d4d5d7;
+    background: transparent;
+    position: relative;
+    top: 50%;
+    left: 40%;
+}
+.discoverShop a {
+    color: #d4d5d7;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.discoverShop a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
