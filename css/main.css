@@ -284,7 +284,7 @@ span.minutes{
     border: 1px solid #d4d5d7;
     background: transparent;
     position: relative;
-    top: 50%;
+    top: 35%;
     left: 40%;
 }
 .discoverShop a {
@@ -314,6 +314,7 @@ span.minutes{
 .email__input{
     width: 25rem;
     height: 3.5rem;
+    border: 1px solid #c8c8c8;
 }
 .email__go{
     width: 7.6rem;
@@ -327,34 +328,67 @@ input[type="email"]::-webkit-input-placeholder {
     font-style: italic;
     color: #c8c8c8;
     font-size: 1.3rem;
+    padding-left: 1rem;
 }
 
 input[type="email"]:-ms-input-placeholder {
     font-style: italic;
     color: #c8c8c8;
     font-size: 1.3rem;
+    padding-left: 1rem;
 }
 
 input[type="email"]::-ms-input-placeholder {
     font-style: italic;
     color: #c8c8c8;
     font-size: 1.3rem;
+    padding-left: 1rem;
 }
 
 input[type="email"]::placeholder {
     font-style: italic;
     color: #c8c8c8;
     font-size: 1.3rem;
+    padding-left: 1rem;
 }
 
+/*----Footer----*/
 
+footer{
+    background: #f7f7f7;
+    height: 15.625rem;
+}
+.footer__wrapper-first, .footer__wrapper-second, .footer__wrapper-third{
+    flex: 0 0 33.33333%;
+    height: auto;
+}
+.footer__text, .footer__social,.footer__signature{
+    padding-top: 25%;
+}
+.footer__text p{
+    margin: 0;
+    padding: 0;
+}
+.footer__text-title{
+    color: #848789;
+    font-weight: bold;
 
-
-
-
-
-
-
+}
+.footer__text-address, .footer__signature p{
+    color: #9b9d9f;
+    font-style: italic;
+    font-weight: 600;
+}
+.footer__social img{
+    display: block;
+}
+img.twit, img.face{
+    margin-right: 1rem;
+}
+.yebo img{
+    display: block;
+    margin-left: 0.75rem;
+}
 
 
 
