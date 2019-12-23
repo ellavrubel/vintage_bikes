@@ -390,8 +390,90 @@ img.twit, img.face{
     margin-left: 0.75rem;
 }
 
+/* ----@Media----*/
 
+@media screen and (max-width: 1200px){
+    .oliva__icon{
+        padding-top: 1.2rem;
+    }
+    .boriosa__icon{
+        padding-top: 1.2rem;
+    }
+    ul.header-list {
+        right: 10%;
+    }
+    .first__twit-picture {
+        padding-top: 5.6rem;
+    }
+    .footer__text, .footer__social, .footer__signature {
+        padding-top: 35%;
+    }
+    .discoverShop {
+        left: 35%;
+    }
 
+}
+@media screen and (max-width: 992px) {
+    .oliva{
+        background: #f7f7f7;
+    }
+    .oliva__photo{
+        flex: 0 0 100%;
+    }
+    .oliva__discr{
+        flex: 0 0 100%;
+    }
+    .boriosa__photo{
+        flex: 0 0 100%;
+    }
+    .boriosa__discr{
+        flex: 0 0 100%;
+    }
+    .retro__first, .retro__second{
+        flex: 0 0 100%;
+    }
+    .retro__first img{
+        height: 60%;
+    }
+    .retro__second{
+        margin-top: -20rem;
+    }
+    .oliva__photo img.small{
+        top:37%
+    }
+    .boriosa__photo img.small {
+        top: 37%;
+        left: 37%;
+    }
+    .twitter-slide{
+        margin-top: -19rem;
+    }
+    ul.header-list{
+        right: 5%;
+        padding-top: 0.5%;
+    }
+    .discoverShop {
+        left: 31%;
+    }
+    .email{
+        height: 20rem;
+    }
+    .footer__social, .footer__signature {
+        padding-top: 45%;
+    }
+    p.new-generation__icon {
+        padding-top: 3.875rem;
+    }
+    p.new-generation__text {
+        padding-bottom: 4rem;
+    }
+    .first__twit-picture {
+        padding-top: 2.6rem;
+    }
+    .boriosa__photo img.small {
+        top: 35%;
+    }
+}
 
 
 
