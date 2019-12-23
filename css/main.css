@@ -31,8 +31,8 @@ ul.header-list{
     width: 100%;
 }
 
-.header__menu a{
-    text-decoration: none;
+li.header__menu a{
+    /*text-decoration: none;*/
     font-size: .875rem;
     color: #797782;
     font-weight: bold;
@@ -473,9 +473,126 @@ img.twit, img.face{
     .boriosa__photo img.small {
         top: 35%;
     }
+
+
+@media screen and (max-width: 768px){
+    .header__wrapper{
+    position: relative;
+    }
 }
+    .header__img img{
+        height: 10rem;
+    }
+    .header__menu img{
+        width: 50%;
+        display: block;
+        margin-left: 2rem;
+    }
+    li.header__menu {
+        margin-left: 1rem;
+    }
+    .header__burger{
+        display: block;
+        position: absolute;
+        top: 4.8rem;
+        right: 10%;
+        width: 2rem;
+        height: 1.3rem;
+        z-index: 3;
+    }
+    .header__burger:before,
+    .header__burger:after{
+        content: "";
+        background-color: #797782;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        transition: all 0.5s ease;
+    }
+    .header__burger:before{
+        top:0;
+    }
+    .header__burger:after{
+        bottom: 0;
+    }
+    .header__burger.active:before{
+        transform: rotate(45deg);
+        top:9px;
+    }
+    .header__burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger span{
+        position: absolute;
+        top: 45%;
+        right: 0;
+        width: 100%;
+        height: 4px;
+        background-color: #797782;
+    }
+    .header__burger.active span{
+        transform: scale(0);
+        transition: all 0.3s ease;
+    }
+    .header__nav{
+        position: fixed;
+        top: -100%;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition:all 0.5s ease;
+    }
+    .header__nav.active{
+        top: 0;
+    }
+    .header-list{
+        display: block;
+    }
+    body.lock{
+        overflow: hidden;
+    }
+    p.new-generation__icon {
+        padding-top: 1.575rem;
+    }
+    p.new-generation__title {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .oliva__icon {
+        padding-top: 5.2rem;
+    }
+    .retro__text {
+        padding-bottom: 6rem;
+    }
+    .first__twit-picture {
+        padding-top: 4.6rem;
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        padding-bottom: 2rem;
+    }
+    .discoverShop {
+        left: 25%;
+    }
+    .footer__signature p{
+        margin-bottom: 0;
+    }
+    .email {
+        height: 18rem;
+    }
+    .oliva__photo img.small{
+        top: 30%;
+        left: 40%;
+    }
+    .boriosa__photo img.small {
+        top: 28%;
+        left: 34%;
+    }
 
 
+}
 
 
 
