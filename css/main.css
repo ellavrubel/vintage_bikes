@@ -479,22 +479,25 @@ img.twit, img.face{
     .header__wrapper{
     position: relative;
     }
-}
+
     .header__img img{
         height: 10rem;
     }
     .header__menu img{
-        width: 50%;
+        width: 30%;
         display: block;
-        margin-left: 2rem;
+        margin-left: 6.9rem;
     }
     li.header__menu {
-        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    li.header__menu a{
+        font-size: 1.5rem;
     }
     .header__burger{
         display: block;
         position: absolute;
-        top: 4.8rem;
+        top: 1.5rem;
         right: 10%;
         width: 2rem;
         height: 1.3rem;
@@ -541,9 +544,11 @@ img.twit, img.face{
         top: -100%;
         left: 20%;
         width: 100%;
-        height: 100%;
+        height: 50%;
         overflow: auto;
-        transition:all 0.5s ease;
+        background-color: rgb(241, 241, 241);
+        padding: 70px 50px 20px;
+        transition: all 0.5s ease;
     }
     .header__nav.active{
         top: 0;
@@ -590,13 +595,102 @@ img.twit, img.face{
         top: 28%;
         left: 34%;
     }
+}}
+
+@media screen and (min-width:320px) and (max-width: 576px){
+
+    p.new-generation__text{
+        text-align: justify;
+    }
+    .oliva__photo img.small {
+        top: 20%;
+        left: 35%;
+    }
+    .oliva__icon {
+        padding-top: 2.2rem;
+    }
+    .oliva__title {
+        font-size: .8rem;
+    }
+    .oliva__text {
+        padding-bottom: 2.5rem;
+    }
+    .oliva__text::after{
+        bottom: 1.5rem;
+        right: 40%;
+    }
+    .boriosa__text{
+        padding-bottom: 2.5rem;
+    }
+    .boriosa__text::after{
+        bottom: 1.5rem;
+        right: 40%;
+    }
+    .oliva__icon {
+        padding-top: 2rem;
+    }
+    .twitter-slide {
+        margin-top: -12rem;
+    }
+    .first__twit-text {
+        font-size: .8rem;
+    }
+    .blackButton {
+        height: 8rem;
+    }
+    .discoverShop a {
+        font-size: .7rem;
+    }
+    .discoverShop {
+        left: 25%;
+    }
+    .discoverShop {
+        width: 10.75rem;
+        height: 2.125rem;
+    }
+    .email__input {
+        width: 15rem;
+        height: 2.5rem;
+        display: block;
+        margin: 0 auto .5rem;
+    }
+    .email__go {
+        width: 5.6rem;
+        height: 2.5rem;
+        display: block;
+        margin: 0 auto;
+    }
+    .email__title {
+        margin-top: 1.2rem;
+    }
+    .footer__text, .footer__social, .footer__signature {
+        padding-top: 12%;
+    }
+    .footer__signature{
+        padding-bottom: 12%;
+    }
+    .footer__text{
+        text-align: center;
+    }
+    footer{
+        background: #f7f7f7;
+        height: 100%;
+    }
+    .header__nav{
+        position: fixed;
+        top: -100%;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(241, 241, 241, .8);
+        padding: 70px 50px 20px;
+        transition: all 0.5s ease;
+    }
+
+
 }
 
-@media screen and(max-width: 576px){
-       li.header__menu img {
-       display: none;
-    }
-}
 
 
 
