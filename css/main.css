@@ -590,8 +590,12 @@ img.twit, img.face{
         top: 28%;
         left: 34%;
     }
+}
 
-
+@media screen and(max-width: 576px){
+       li.header__menu img {
+       display: none;
+    }
 }
 
 
