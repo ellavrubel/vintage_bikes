@@ -10,7 +10,7 @@
                 items: 1
             }
         }
-    })
+    });
 
 
         $('.header__burger').click(function (event) {
