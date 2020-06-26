@@ -625,6 +625,9 @@ img.twit, img.face{
         right: 40%;
     }
     .oliva__icon {
+        padding-top: 2rem;
+    }
+    .oliva__icon4{
         padding-top: 13rem;
     }
     .twitter-slide {
